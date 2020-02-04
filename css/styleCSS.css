@@ -1,6 +1,6 @@
 body{    
     margin: 0 !important;
-    padding: 0 !important;
+    padding-top: 60px;
 
     background-color: rgb(32, 32, 32);
     color: rgb(247, 247, 247);
@@ -9,15 +9,25 @@ body{
     font-size: 16px;
 
     line-height: height 1.4em;
+    text-align: center;
 }
 a{
     color: white;
     -webkit-text-size-adjust: 110%;
 }
+
+h1{
+    font-size: 80px;
+    padding: 0px;
+    margin: 0px;
+}
+
 .navigationBarMain{
     height: 48px;
-    width: auto;
+    width: 100%;
     background-color: rgb(66, 65, 65);
+    position: fixed;
+    top: 0;
 }
 
 .navigationBarMain ul {
@@ -45,4 +55,42 @@ overflow: hidden;
 
 .navigationBarMain li a:hover {
     background-color: darkgrey;
+}
+
+.container{
+width: 80%;
+margin: auto;
+}
+
+.box-1{
+    padding: 20px;
+}
+
+.box-2{
+    max-width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(20, 20, 20);
+}
+
+.box-video{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.box-video-2{
+    max-width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 1px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(20, 20, 20);
 }
